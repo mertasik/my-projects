@@ -46,5 +46,14 @@ def greet_admin():
 def greeting(name):
     return render_template('greet.html', name_html = name)
 
+@app.route('/list10')
+def list10():
+    return render_template('list10.html')
+
+@app.route('/evens')
+def evens():
+    return render_template('evens.html'e)
+
 if __name__ == '__main__':
     app.run(debug=True)
+    app.run(host='0.0.0.0', port=80)
