@@ -10,6 +10,9 @@ def hello():
 def second():
     return 'bize heryer trabzon!!!'
 
+@app.route('/third/subthird)
+def third():
+    return 'this is '
 
 
 
