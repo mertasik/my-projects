@@ -23,7 +23,7 @@ Resources:
     Properties:
       ImageId: ami-02e136e904f3da870
       InstanceType: t2.micro
-      KeyName: aws1 # pem file's name
+      KeyName: firstkey # pem file's name
       SecurityGroupIds:
         - !Ref WebServerSecurityGroup
       Tags:
